@@ -5,18 +5,22 @@ Complex Zram algorithms tester. Test your Zram algorithms to find best-implement
 ```
 Root acces
 Termux
-FIO
+Latest FIO release
 ```
 
 ## Reqirements instalation
 Assuming you installed Root and termux, for installing FIO run this in your termux:
-`pkg install root-repo
+```
+pkg install root-repo
 pkg update
-pkg install fio`
+pkg install fio
+```
+
 Script will handle PATCH by itself
 
 # Usage
-```Usage: test_zram.sh [options]
+```
+Usage: test_zram.sh [options]
 
 ZRAM Benchmark Script
 Runs fio benchmarks on /dev/block/zram0 with various compression algorithms,

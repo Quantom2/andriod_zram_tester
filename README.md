@@ -18,6 +18,13 @@ pkg install fio
 
 Script will handle PATCH by itself
 
+## Instalation
+Assuming you installed Root and termux, for installing FIO run this in your termux:
+```
+curl -Ls https://raw.githubusercontent.com/Quantom2/andriod_zram_tester/refs/heads/main/test_zram.sh > test_zram.sh
+chmod a+x test_zram.sh
+```
+
 # Usage
 ```
 Usage: test_zram.sh [options]
